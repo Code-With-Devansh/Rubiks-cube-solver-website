@@ -110,7 +110,7 @@ export default function HeroSection() {
         {/* CTA buttons */}
         <div className="fade-in-up fade-in-up-delay-3 flex flex-wrap items-center justify-center gap-4">
           <a
-            href="https://github.com/YOUR_USERNAME/rubiks-cube-solver"
+            href="https://github.com/code-with-devansh/rubiks-cube-solver"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-cyan-400/10 border border-cyan-400/50 rounded-lg text-cyan-400 font-mono text-sm hover:bg-cyan-400/20 hover:border-cyan-400 transition-all glow-cyan"
