@@ -5,12 +5,11 @@ interface GalleryImage {
 }
 
 const PLACEHOLDER_IMAGES: GalleryImage[] = [
-  { src: "", alt: "Team at EMR Embedx competition", label: "EMR Embedx 2024 — Award Ceremony" },
-  { src: "", alt: "Full robot assembly", label: "Final Assembly" },
-  { src: "", alt: "Arduino wiring detail", label: "Arduino + Servo Wiring" },
-  { src: "", alt: "OpenCV cube scan interface", label: "OpenCV Color Detection" },
-  { src: "", alt: "Robot solving cube", label: "Live Solve — Side View" },
-  { src: "", alt: "Team working on build", label: "Build Phase" },
+  { src: "/DSC_2684.jpg", alt: "Team at EMR Embedx competition", label: "Team Group Photo" },
+  { src: "/DSC_3103.jpg", alt: "First Prize at EMR Embedx competition", label: "EMR Embedx 2026 — Award Ceremony" },
+  { src: "/DSC_2787.jpg", alt: "Full robot assembly", label: "Final Assembly" },
+  { src: "/DSC_3110.jpg", alt: "Full robot assembly", label: "EMR Embedx 2026 — Group Photo" },
+  { src: "/DSC_2803.jpg", alt: "Full robot assembly", label: "Evalutation" },
 ];
 
 export default function ImageGrid({ images = PLACEHOLDER_IMAGES }: { images?: GalleryImage[] }) {

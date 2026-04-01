@@ -13,12 +13,12 @@ export default function DemoSection() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 section-reveal">
         <VideoEmbed
-          youtubeId="PLACEHOLDER"
+          youtubeId="H6A99FX--Og"
           title="Team Explanation — System Walkthrough"
           label="Video 01 / Team Presentation"
         />
         <VideoEmbed
-          youtubeId="PLACEHOLDER"
+          youtubeId="PTByx3YmgEY"
           title="Live Demo — Autonomous Cube Solve"
           label="Video 02 / Working Demo"
         />

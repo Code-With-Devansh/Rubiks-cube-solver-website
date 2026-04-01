@@ -15,9 +15,6 @@ export default function GallerySection() {
         <ImageGrid />
       </div>
 
-      <p className="section-reveal mt-6 text-center font-mono text-xs text-slate-700">
-        [ Replace placeholder slots with actual project photos ]
-      </p>
     </SectionWrapper>
   );
 }
